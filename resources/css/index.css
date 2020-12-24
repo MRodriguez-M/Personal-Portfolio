@@ -1,0 +1,6 @@
+@media (max-width: 500px) {
+    #projects {
+        display: flex;
+        flex-direction: column;
+    }
+}
