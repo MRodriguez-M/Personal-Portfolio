@@ -34,7 +34,7 @@ a {
 
 .project-tile {
     width: 30%;
-    margin: 0px 20px;
+    margin: 0px 23px;
     text-align: center;
     font-family: "Roboto Slab", "Arial";
     color: #FDFFFC;
@@ -42,9 +42,14 @@ a {
 
 img {
     height: 200px;
-    width: 75%;
+    width: 230px;
     margin-top: -20px;
-    padding: 0px 50px;
+    margin-left: 20px;
+}
+
+#rectangle-img {
+    width: 300px;
+    margin-left: 10px;
 }
 
 #projects {
@@ -52,6 +57,12 @@ img {
     flex-wrap: wrap;
     background-color: #CF000F;
     margin: 0px -7px;
+}
+
+#contact {
+    font-family: "Roboto Slab", "Arial";
+    color: #FDFFFC;
+    text-align: center;
 }
 
 @media (max-width: 500px) {
