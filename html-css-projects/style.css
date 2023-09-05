@@ -16,8 +16,21 @@ body {
 }
 
 .left-side {
-    background-color: red;
+    /*background-color: purple;*/
     width: 50%;
+    padding: 20px;
+}
+
+.skill-list {
+    display: flex;
+    margin-top: -20px;
+}
+
+.skill-name {
+    background-color: #CF000F;
+    border-radius: 25px;
+    padding: 10px;
+    margin-right: 10px;
 }
 
 .right-side {
