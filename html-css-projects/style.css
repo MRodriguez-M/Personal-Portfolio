@@ -13,10 +13,10 @@ body {
     height: 60vh;
     font-family: "Roboto Slab", "Arial";
     color: #FDFFFC;
+    border-bottom: 5px solid #CF000F;;
 }
 
 .left-side {
-    /*background-color: purple;*/
     width: 50%;
     padding: 20px;
 }
@@ -34,6 +34,28 @@ body {
 }
 
 .right-side {
-    background-color: green;
     width: 50%;
+}
+
+.project-img {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.link-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.project-link {
+    background-color: #CF000F;
+    color: #FDFFFC;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 10px;
+    text-decoration: none;
 }
